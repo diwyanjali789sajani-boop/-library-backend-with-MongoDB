@@ -47,7 +47,7 @@ Open src/main/resources/application.properties and add your MongoDB configuratio
 
 spring.data.mongodb.uri=mongodb://localhost:27017/librarydb
 spring.data.mongodb.database=librarydb
-server.port=8080
+server.port=8081
 
 
 Make sure MongoDB is running locally or replace the URI with your MongoDB Atlas connection string.
@@ -60,7 +60,7 @@ If using Maven Wrapper:
 mvnw.cmd spring-boot:run  # Windows
 
 
-The application will start on http://localhost:8080.
+The application will start on http://localhost:8081.
 
 API Endpoints
 Method	Endpoint	Description
